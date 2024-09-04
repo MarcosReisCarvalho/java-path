@@ -11,6 +11,7 @@ public class App {
 
         System.out.print(nome(name, name2));
 
+        myObj.close();
     }
 
     public static String nome(String primerioNome, String segundoNome) {
