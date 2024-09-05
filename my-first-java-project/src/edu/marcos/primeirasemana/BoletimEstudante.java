@@ -1,3 +1,4 @@
+package edu.marcos.primeirasemana;
 import java.util.Scanner;
 
 public class BoletimEstudante {
