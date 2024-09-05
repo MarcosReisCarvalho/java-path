@@ -6,12 +6,16 @@ public class BoletimEstudante {
             System.out.println("Digite sua média:");
             
             Double media = myObj.nextDouble();
-            if(media < 6)
-                System.out.println("Reprovado");
-            else if (media == 6)
-                System.out.println("Prova minerva");
-            else 
-                System.out.println("Aprovado");
+            System.out.println(verification(media));
         }
+    }
+
+    public static String verification(Double media){
+        if(media < 6)
+            return "Reprovado";
+        else if (media == 6)
+            return "Prova de minerva";
+        else 
+            return "Aprovado";
     }
 }
