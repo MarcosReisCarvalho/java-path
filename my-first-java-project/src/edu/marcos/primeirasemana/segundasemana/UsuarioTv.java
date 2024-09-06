@@ -21,6 +21,11 @@ public class UsuarioTv {
 
         smartTv.desligar();
         System.out.println("Novo status - TV ligada ? " + smartTv.ligada);
+
+        smartTv.aumentarCanal();
+        System.out.println("Canal atual: " + smartTv.canal);
+        smartTv.diminuirCanal();
+        System.out.println("Canal atual: " + smartTv.canal);
     }
 
 }
