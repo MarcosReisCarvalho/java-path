@@ -5,7 +5,11 @@ public class SmartTv {
     int canal = 1;
     int volume = 25;
     
-    public static void main(String args){
+    public void ligar(){
+        ligada = true;
+    }
 
+    public void desligar(){
+        ligada = false;
     }
 }

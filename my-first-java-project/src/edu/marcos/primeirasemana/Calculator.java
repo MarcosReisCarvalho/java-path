@@ -1,4 +1,4 @@
-package edu.marcos.primeirasemana.segundasemana;
+package edu.marcos.primeirasemana;
 import java.util.Scanner;
 
 public class Calculator {
