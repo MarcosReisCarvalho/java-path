@@ -25,10 +25,10 @@ public class Calculator {
                 num2 = myObj.nextDouble();
                 
                 switch(operador) {
-                    case 1 -> System.out.print(soma(num1, num2));
-                    case 2 -> System.out.print(sub(num1, num2));
-                    case 3 -> System.out.print(mult(num1, num2));
-                    case 4 -> System.out.print(sub(num1, num2));
+                    case 1 -> System.out.println(soma(num1, num2));
+                    case 2 -> System.out.println(sub(num1, num2));
+                    case 3 -> System.out.println(mult(num1, num2));
+                    case 4 -> System.out.println(div(num1, num2));
                     case 5 -> System.out.println("Obrigado por utilizar a calculadora :)");
                 }
 
@@ -37,25 +37,25 @@ public class Calculator {
     };
 
     public static String soma(Double number1, Double number2) {
-        Double resultado = number1 + number2;
+        double resultado = number1 + number2;
 
         return "Resultado final é: " + Double.toString(resultado);
     };
 
     public static String sub(Double number1, Double number2) {
-        Double resultado = number1 - number2;
+        double resultado = number1 - number2;
         
         return "Resultado final é: " + Double.toString(resultado);  
     };
 
     public static String mult(Double number1, Double number2) {
-        Double resultado = number1 * number2;
+        double resultado = number1 * number2;
         
         return "Resultado final é: " + Double.toString(resultado);  
     };
 
     public static String div(Double number1, Double number2) {
-        Double resultado = number1 / number2;
+        double resultado = number1 / number2;
         
         return "Resultado final é: " + Double.toString(resultado);  
     };
